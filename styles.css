@@ -1,0 +1,273 @@
+
+/* Styling av hovedsiden */
+
+.Gruppenavn{
+    text-align: center;
+    font-family: Bebas Neue, Serif;
+    font-size: 30px;
+
+}
+
+
+
+
+
+/* Styling av navnbokser på hovedsiden */
+
+.Hawler{
+    width: 100px;
+    height: 100px;
+
+
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 30px;
+    border-radius: 20px;
+    border-color: lightblue;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Bebas Neue, Serif;
+    float: left;
+
+
+}
+
+.Jon{
+    width: 100px;
+    height: 100px;
+
+
+    background-color: darkorange;
+    border-style: solid;
+    border-width: 30px;
+    border-radius: 20px;
+    border-color: darkorange;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Bebas Neue, Serif;
+    float: left;
+    margin-left: 60px;
+
+}
+
+.Jørgen{
+    width: 100px;
+    height: 100px;
+
+    background-color: rebeccapurple;
+    border-style: solid;
+    border-width: 30px;
+    border-radius: 20px;
+    border-color: rebeccapurple;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Bebas Neue, Serif;
+    float: left;
+    margin-left: 60px;
+
+}
+
+
+.Ole{
+    width: 100px;
+    height: 100px;
+
+
+    background-color: red;
+    border-style: solid;
+    border-width: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-color: red;
+    font-family: Bebas Neue, Serif;
+    float: left;
+    margin-left: 60px;
+
+}
+
+.Nina{
+    width: 100px;
+    height: 100px;
+
+
+    background-color: darkgreen;
+    border-style: solid;
+    border-width: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-color: darkgreen;
+    font-family: Bebas Neue, Serif;
+    float: left;
+    margin-left: 60px;
+
+}
+
+.Lise{
+    width: 100px;
+    height: 100px;
+
+
+    background-color: hotpink;
+    border-style: solid;
+    border-width: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-color: hotpink;
+    font-family: Bebas Neue, Serif;
+    float: left;
+    margin-left: 60px;
+
+}
+
+.OmGruppe1A{
+    background-color: navajowhite;
+    border-style: solid;
+    border-width: 30px;
+    border-radius: 20px;
+    text-align: center;
+    border-color: navajowhite;
+    font-family: Bebas Neue, Serif;
+    font-size: 40px;
+    float: right;
+    margin-right: 520px;
+
+}
+
+
+/* Styling for infosider om hvert gruppemedlem */
+
+
+/* styling av info side om Hawler */
+
+.hinfo{
+    font-family: Bebas Neue, Serif;
+    text-align: center;
+}
+
+.hkodeopplevelse{
+    font-family: Bebas Neue, Serif;
+}
+
+.hparagraf{
+    font-family: Bebas Neue, Serif;
+    text-align: left;
+    justify-content: left;
+}
+
+.hfigur{
+    font-family: Bebas Neue, Serif;
+}
+
+/* styling av infoside om Jon */
+
+
+.jinfo{
+    font-family: Bebas Neue, Serif;
+    text-align: center;
+}
+
+.jkodeopplevelse{
+    font-family: Bebas Neue, Serif;
+}
+
+.jparagraf{
+    font-family: Bebas Neue, Serif;
+    text-align: left;
+    justify-content: left;
+}
+
+.jfigur{
+    font-family: Bebas Neue, Serif;
+}
+
+
+/* styling av info side om Jørgen */
+
+
+.joinfo{
+    font-family: Bebas Neue, Serif;
+    text-align: center;
+}
+
+.jokodeopplevelse{
+    font-family: Bebas Neue, Serif;
+}
+
+.joparagraf{
+    font-family: Bebas Neue, Serif;
+    text-align: left;
+    justify-content: left;
+}
+
+.jofigur{
+    font-family: Bebas Neue, Serif;
+}
+
+/* styling av info side om Lise */
+
+
+.linfo{
+    font-family: Bebas Neue, Serif;
+    text-align: center;
+}
+
+.lkodeopplevelse{
+    font-family: Bebas Neue, Serif;
+}
+
+.lparagraf{
+    font-family: Bebas Neue, Serif;
+    text-align: left;
+    justify-content: left;
+}
+
+.lfigur{
+    font-family: Bebas Neue, Serif;
+}
+
+/* styling av infoside om Nina */
+
+
+.ninfo{
+    font-family: Bebas Neue, Serif;
+    text-align: center;
+}
+
+.nkodeopplevelse{
+    font-family: Bebas Neue, Serif;
+}
+
+.nparagraf{
+    font-family: Bebas Neue, Serif;
+    text-align: left;
+    justify-content: left;
+}
+
+.nfigur{
+    font-family: Bebas Neue, Serif;
+}
+
+/* styling av info side om Ole */
+
+
+.oinfo{
+    font-family: Bebas Neue, Serif;
+    text-align: center;
+}
+
+.okodeopplevelse{
+    font-family: Bebas Neue, Serif;
+}
+
+.oparagraf{
+    font-family: Bebas Neue, Serif;
+    text-align: left;
+    justify-content: left;
+}
+
+.ofigur{
+    font-family: Bebas Neue, Serif;
+}
