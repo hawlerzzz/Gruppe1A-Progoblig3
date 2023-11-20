@@ -9,9 +9,6 @@
 }
 
 
-
-
-
 /* Styling av navnbokser på hovedsiden */
 
 .Hawler{
@@ -123,16 +120,11 @@
 }
 
 .OmGruppe1A{
-    background-color: navajowhite;
-    border-style: solid;
-    border-width: 30px;
-    border-radius: 20px;
-    text-align: center;
-    border-color: navajowhite;
+    
     font-family: Bebas Neue, Serif;
     font-size: 40px;
-    float: right;
-    margin-right: 520px;
+    text-align: center;
+
 
 }
 
@@ -145,16 +137,19 @@
 .hinfo{
     font-family: Bebas Neue, Serif;
     text-align: center;
+    font-size: 50px;
 }
 
 .hkodeopplevelse{
     font-family: Bebas Neue, Serif;
+    font-size: 40px;
 }
 
 .hparagraf{
     font-family: Bebas Neue, Serif;
     text-align: left;
-    justify-content: left;
+    font-size: 25px;
+
 }
 
 .hfigur{
@@ -167,16 +162,18 @@
 .jinfo{
     font-family: Bebas Neue, Serif;
     text-align: center;
+    font-size: 50px;
 }
 
 .jkodeopplevelse{
     font-family: Bebas Neue, Serif;
+    font-size: 40px;
 }
 
 .jparagraf{
     font-family: Bebas Neue, Serif;
     text-align: left;
-    justify-content: left;
+    font-size: 25px;
 }
 
 .jfigur{
@@ -190,16 +187,19 @@
 .joinfo{
     font-family: Bebas Neue, Serif;
     text-align: center;
+    font-size: 50px;
 }
 
 .jokodeopplevelse{
     font-family: Bebas Neue, Serif;
+    font-size: 40px;
 }
 
 .joparagraf{
     font-family: Bebas Neue, Serif;
     text-align: left;
-    justify-content: left;
+    font-size: 25px;
+
 }
 
 .jofigur{
@@ -212,16 +212,19 @@
 .linfo{
     font-family: Bebas Neue, Serif;
     text-align: center;
+    font-size: 50px;
 }
 
 .lkodeopplevelse{
     font-family: Bebas Neue, Serif;
+    font-size: 40px;
 }
 
 .lparagraf{
     font-family: Bebas Neue, Serif;
     text-align: left;
-    justify-content: left;
+    font-size: 25px;
+
 }
 
 .lfigur{
@@ -234,16 +237,18 @@
 .ninfo{
     font-family: Bebas Neue, Serif;
     text-align: center;
+    font-size: 50px;
 }
 
 .nkodeopplevelse{
     font-family: Bebas Neue, Serif;
+    font-size: 40px;
 }
 
 .nparagraf{
     font-family: Bebas Neue, Serif;
     text-align: left;
-    justify-content: left;
+    font-size: 25px;
 }
 
 .nfigur{
@@ -256,16 +261,18 @@
 .oinfo{
     font-family: Bebas Neue, Serif;
     text-align: center;
+    font-size: 50px;
 }
 
 .okodeopplevelse{
     font-family: Bebas Neue, Serif;
+    font-size: 40px;
 }
 
 .oparagraf{
     font-family: Bebas Neue, Serif;
     text-align: left;
-    justify-content: left;
+    font-size: 25px;
 }
 
 .ofigur{
