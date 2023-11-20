@@ -29,6 +29,21 @@ export function circle(color, xstart, ystart, radius){
     }
 }
 
+export function circleevenodd(color, xstart, ystart, radius){
+    const canvas = document.getElementById("canvas");
+    if (canvas.getContext) {
+        const ctx = canvas.getContext("2d");
+
+        //draw a circle
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.strokeStyle = color;
+        ctx.arc(xstart, ystart, radius, 0, Math.PI * 2, true);
+        ctx.arc(xstart2, ystart2, radius2, 0, Math.PI * 2, true);
+        ctx.fill("evenodd");
+    }
+}
+
 //Tegner en trekant der man først setter farge. Deretter velger man x og y koordinatet hvor man starter å tegne fra
 //også, hvor man trekker en strek til. Etterfulgt av enda en strek. den tegner automatisk en strek til startpunktet
 //igjen for å fullføre trekanten.

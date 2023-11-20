@@ -9,6 +9,7 @@ function canvasjon(){
     triangle("black", 25, 60, 75, 60, 50, 75);
 }
 
+
 canvasjon();
 
 
