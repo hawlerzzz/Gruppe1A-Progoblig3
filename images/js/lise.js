@@ -10,6 +10,6 @@ function canvaslise() {
 	circle("black", 73, 37, 7);
 }
 
-canvasnavn();
+canvaslise();
 
 
