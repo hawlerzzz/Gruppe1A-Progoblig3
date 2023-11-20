@@ -9,14 +9,12 @@
 }
 
 
-
-
-
 /* Styling av navnbokser på hovedsiden */
 
 .Hawler{
     width: 100px;
     height: 100px;
+    margin-top: 50px;
 
 
     background-color: lightblue;
@@ -35,7 +33,7 @@
 .Jon{
     width: 100px;
     height: 100px;
-
+    margin-top: 50px;
 
     background-color: darkorange;
     border-style: solid;
@@ -46,13 +44,14 @@
     text-align: center;
     font-family: Bebas Neue, Serif;
     float: left;
-    margin-left: 60px;
+    margin-left: 40px;
 
 }
 
 .Jørgen{
     width: 100px;
     height: 100px;
+    margin-top: 50px;
 
     background-color: rebeccapurple;
     border-style: solid;
@@ -71,6 +70,7 @@
 .Ole{
     width: 100px;
     height: 100px;
+    margin-top: 50px;
 
 
     background-color: red;
@@ -89,6 +89,7 @@
 .Nina{
     width: 100px;
     height: 100px;
+    margin-top: 50px;
 
 
     background-color: darkgreen;
@@ -107,6 +108,7 @@
 .Lise{
     width: 100px;
     height: 100px;
+    margin-top: 50px;
 
 
     background-color: hotpink;
@@ -123,16 +125,13 @@
 }
 
 .OmGruppe1A{
-    background-color: navajowhite;
-    border-style: solid;
-    border-width: 30px;
-    border-radius: 20px;
+
     text-align: center;
-    border-color: navajowhite;
     font-family: Bebas Neue, Serif;
-    font-size: 40px;
-    float: right;
-    margin-right: 520px;
+    font-size: 30px;
+    margin-top: 40px;
+
+
 
 }
 
@@ -143,8 +142,10 @@
 /* styling av info side om Hawler */
 
 .hinfo{
+
     font-family: Bebas Neue, Serif;
     text-align: center;
+
 }
 
 .hkodeopplevelse{
@@ -190,16 +191,20 @@
 .joinfo{
     font-family: Bebas Neue, Serif;
     text-align: center;
+    font-size: 50px;
 }
 
 .jokodeopplevelse{
     font-family: Bebas Neue, Serif;
+    font-size: 40px;
 }
 
 .joparagraf{
     font-family: Bebas Neue, Serif;
+    font-size: 30px;
     text-align: left;
     justify-content: left;
+
 }
 
 .jofigur{
@@ -270,4 +275,16 @@
 
 .ofigur{
     font-family: Bebas Neue, Serif;
+}
+
+.Gkodeopplevelse{
+    font-family: Bebas Neue, Serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Gparagraf{
+    font-family: Bebas Neue, Serif;
+    font-size: 20px;
+
 }
