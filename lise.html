@@ -16,6 +16,7 @@
 </header>
 
 <body>
+<div class="liseBody">
 <div class="lkodeopplevelse">
     <h2>
         Litt om meg
@@ -23,7 +24,7 @@
 </div>
 <div class="lparagraf">
     <p>
-     Jeg heter Lise og er 22 år gammle. Jeg kommer fra Kvinesdal, men bodde i Stavanger i tre år før jeg flyttet til Kristiansand. Jeg tok en bachelor i økonomi og administrasjon før jeg startet å studere IT og informasjonssystemer på Universitetet i Agder. På fritiden liker jeg å trene, og har tidligere spilt fotball og håndball. 
+     Jeg heter Lise og er 22 år gammel. Jeg kommer fra Kvinesdal, men bodde i Stavanger i tre år før jeg flyttet til Kristiansand. Jeg tok en bachelor i økonomi og administrasjon før jeg startet å studere IT og informasjonssystemer på Universitetet i Agder. På fritiden liker jeg å trene, og har tidligere spilt fotball og håndball. 
     </p>
 </div>
 <div class="lfigur">
@@ -32,23 +33,27 @@
      </h1>
 </div>
 
-<! Canvas API  >
-<div>
-    <p>Figuren tegnet med Canvas API</p>
-    <canvas id="canvas" width="150" height="150"></canvas>
-    <script src="images/js/lise.js" type="module"></script>
+
+    <! Canvas API  >
+    <div class="figurLiseAPI">
+        <p>Figuren tegnet med Canvas API</p>
+        <canvas id="canvas" width="150" height="150"></canvas>
+        <script src="images/js/lise.js" type="module"></script>
+    </div>
+
+    <! SVG API >
+    <div class="figurLiseAPI">
+        <p>Figuren tegnet med SVG API</p>
+        <svg id="svg" width="150" height="150"></svg>
+        <script src="images/js/lise.js" type="module"></script>
+    </div>
+
+
+<div class="LiseRep">
+    <p>Link til repository med Pyret-koden til figuren: </p>
+    <a href="https://github.com/liserannestad/Progoblig03.git">https://github.com/liserannestad/Progoblig03.git</a>
 </div>
 
-<! SVG API >
-<div>
-    <p>Figuren tegnet med SVG API</p>
-    <svg id="svg" width="150" height="150"></svg>
-    <script src="images/js/lise.js" type="module"></script>
 </div>
-
-<div>
-    <p>Link til repository med Pyret-koden til figuren: </p><a href="https://github.com/liserannestad/Progoblig03.git">https://github.com/liserannestad/Progoblig03.git</a>
-</div>
-
 </body>
 </html>
