@@ -160,7 +160,29 @@
 
 .hfigur{
     font-family: Bebas Neue, Serif;
+    width: 1000px;
 }
+
+
+
+.figurhAPI{
+    width: 50%;
+    float: left;
+    font-family: Bebas Neue, Serif;
+}
+
+
+.hBody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    font-family: Bebas Neue, Serif;
+    font-size: 20px;
+}
+
 
 /* styling av infoside om Jon */
 
@@ -182,9 +204,33 @@
     font-size: 25px;
 }
 
-.jfigur{
+.jfigur {
+    font-family: Bebas Neue, Serif;
+    width: 1000px;
+}
+
+
+
+.figurjAPI{
+    width: 50%;
+    float: left;
     font-family: Bebas Neue, Serif;
 }
+
+
+.jBody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    font-family: Bebas Neue, Serif;
+    font-size: 20px;
+}
+
+
+
 
 
 /* styling av info side om Jørgen */
@@ -210,7 +256,29 @@
 
 .jofigur{
     font-family: Bebas Neue, Serif;
+    width: 1000px;
 }
+
+
+
+.figurjoAPI{
+    width: 50%;
+    float: left;
+    font-family: Bebas Neue, Serif;
+}
+
+
+.joBody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    font-family: Bebas Neue, Serif;
+    font-size: 20px;
+}
+
 
 /* styling av info side om Lise */
 
@@ -239,6 +307,25 @@
     width: 1000px;
 }
 
+.figurLiseAPI {
+    width: 50%;
+    float: left;
+
+}
+
+
+.liseBody{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    font-family: Bebas Neue, Serif;
+    font-size: 20px;
+}
+
+
 /* styling av infoside om Nina */
 
 
@@ -259,9 +346,28 @@
     font-size: 25px;
 }
 
-.nfigur{
+.nfigur {
     font-family: Bebas Neue, Serif;
+    width: 1000px;
 }
+
+.figurnAPI {
+    width: 50%;
+    float: left;
+
+}
+
+.nBody{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    font-family: Bebas Neue, Serif;
+    font-size: 20px;
+}
+
 
 /* styling av info side om Ole */
 
@@ -285,23 +391,31 @@
 
 .ofigur{
     font-family: Bebas Neue, Serif;
+    width: 1000px;
 }
 
 
-.figurLiseAPI {
+.figuroAPI {
     width: 50%;
     float: left;
+
 }
 
 
-.liseBody {
+.oBody{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 1000px;
     height: 100%;
     margin: auto;
-    font-family: sans-serif;
+    font-family: Bebas Neue, Serif;
     font-size: 20px;
 }
+
+
+
+/*   */
+
+/*felles styling på infosider*/
 
