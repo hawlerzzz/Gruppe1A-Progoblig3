@@ -1,4 +1,4 @@
-import { rectangle, circle, triangle, circleevenodd } from  ”./figures.js”;
+import { rectangle, circle, circleevenodd, rectanglesvg, circlesvg, ekstracirclesvg } from  "./figures.js";
 
 function canvasnina() {
 	rectangle("silver", 0, 0, 90, 90);
