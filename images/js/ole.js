@@ -1,6 +1,6 @@
 import { rectangle, circle, triangle, rectanglesvg, circlesvg, trianglesvg } from "./figures.js";
 
-function canvasole(): {
+function canvasole() {
     rectangle("black", 0, 0, 100, 100);
     circle("blue", 20, 25, 10);
     circle("blue", 60, 25, 10);
