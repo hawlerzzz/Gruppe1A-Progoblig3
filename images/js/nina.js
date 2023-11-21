@@ -13,9 +13,9 @@ canvasnina();
 
 function svgnina() {
 	rectanglesvg("silver", "0", "0", "90", "90");
-	circlessvg("purple", "45", "80", "20");
+	ekstracirclesvg("purple", "45", "80", "20", "43", "78", "18");
 	circlesvg("blue", "10", "10", "20");
-	circlesvg("red", "45", "50", "40");
+	ekstracirclesvg("red", "45", "50", "40", "43", "48", "38");
 	circlesvg("dark-green", "80, 10, 20");
 
 }
