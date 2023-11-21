@@ -1,4 +1,4 @@
-import {rectangle, circle, circlesvg, rectanglesvg, triangle} from "./figures.js";
+import {rectangle, circle, circlesvg, rectanglesvg, } from "./figures.js";
 
 function canvasjon(){
     rectangle("yellow", 25, 80,50, 5);
