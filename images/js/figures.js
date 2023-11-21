@@ -29,6 +29,21 @@ export function circle(color, xstart, ystart, radius){
     }
 }
 
+export function circleevenodd(color, xstart, ystart, radius, xstart2, ystart2, radius2){
+    const canvas = document.getElementById("canvas");
+    if (canvas.getContext) {
+        const ctx = canvas.getContext("2d");
+
+        //draw a circle
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.strokeStyle = color;
+        ctx.arc(xstart, ystart, radius, 0, Math.PI * 2, true);
+        ctx.arc(xstart2, ystart2, radius2, 0, Math.PI * 2, true);
+        ctx.fill("evenodd");
+    }
+}
+
 //Tegner en trekant der man først setter farge. Deretter velger man x og y koordinatet hvor man starter å tegne fra
 //også, hvor man trekker en strek til. Etterfulgt av enda en strek. den tegner automatisk en strek til startpunktet
 //igjen for å fullføre trekanten.
@@ -56,6 +71,19 @@ export function circlesvg(color, xstart, ystart, radius) {
     newElement.setAttribute("cx",xstart);
     newElement.setAttribute("cy", ystart);
     newElement.setAttribute("r", radius);
+    svg.appendChild(newElement);
+}
+
+export function ekstracirclesvg(color, xstart, ystart, radius, filltype, strokewidth) {
+    const svg = document.getElementById("svg");
+    const newElement = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    newElement.style.stroke = color;
+    newElement.style.fill = color;
+    newElement.setAttribute("cx",xstart);
+    newElement.setAttribute("cy", ystart);
+    newElement.setAttribute("r", radius);
+    newElement.setAttribute("fill", filltype);
+    newElement.setAttribute("stroke-width", strokewidth);
     svg.appendChild(newElement);
 }
 
