@@ -11,7 +11,7 @@ canvasole();
 
 function svgole() {
     rectanglesvg("black", "0", "0", "100", "100");
-    rectangle("green", "35", "75", "30", "10");
+    rectanglesvg("green", "35", "75", "30", "10");
     circlesvg("blue", "30", "25", "10");
     circlesvg("blue", "70", "25", "10");
     trianglesvg("red", "40, 40 60, 40 50, 30");
