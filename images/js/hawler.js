@@ -1,4 +1,4 @@
-import {rectangle, circle, circlesvg, rectanglesvg, } from "./figures.js";
+import {rectangle, circle } from "./figures.js";
 
 function canvashawler(){
     rectangle("yellow", 25, 80,50, 5);
