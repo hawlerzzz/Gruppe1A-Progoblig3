@@ -30,3 +30,9 @@ function testcanvas(navncanvas){
 }
 
 testcanvas(canvastest);
+
+function testibest(){
+    testrect("canvastest2", "red", 0, 0, 100, 100)
+}
+
+testibest();
