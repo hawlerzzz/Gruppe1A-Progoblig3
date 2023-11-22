@@ -119,3 +119,14 @@ export function testrect(canvasid, color, xstart, ystart, width, height){
         ctx.fillRect(xstart, ystart, width, height);
     }
 }
+
+export function testrect2(color, xstart, ystart, width, height, canvasid){
+    const canvas = document.getElementById(canvasid.toString());
+    if (canvas.getContext) {
+        const ctx = canvas.getContext("2d");
+
+        //draw a rectangle
+        ctx.fillStyle = color;
+        ctx.fillRect(xstart, ystart, width, height);
+    }
+}
