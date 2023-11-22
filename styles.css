@@ -8,117 +8,6 @@
 
 }
 
-
-/* Styling av navnbokser på hovedsiden */
-
-.Hawler{
-    width: 100px;
-    height: 100px;
-
-
-    background-color: lightblue;
-    border-style: solid;
-    border-width: 30px;
-    border-radius: 20px;
-    border-color: lightblue;
-    margin-bottom: 30px;
-    text-align: center;
-    font-family: Bebas Neue, Serif;
-    float: left;
-
-
-}
-
-.Jon{
-    width: 100px;
-    height: 100px;
-
-
-    background-color: darkorange;
-    border-style: solid;
-    border-width: 30px;
-    border-radius: 20px;
-    border-color: darkorange;
-    margin-bottom: 30px;
-    text-align: center;
-    font-family: Bebas Neue, Serif;
-    float: left;
-    margin-left: 60px;
-
-}
-
-.Jørgen{
-    width: 100px;
-    height: 100px;
-
-    background-color: rebeccapurple;
-    border-style: solid;
-    border-width: 30px;
-    border-radius: 20px;
-    border-color: rebeccapurple;
-    margin-bottom: 30px;
-    text-align: center;
-    font-family: Bebas Neue, Serif;
-    float: left;
-    margin-left: 60px;
-
-}
-
-
-.Ole{
-    width: 100px;
-    height: 100px;
-
-
-    background-color: red;
-    border-style: solid;
-    border-width: 30px;
-    border-radius: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-    border-color: red;
-    font-family: Bebas Neue, Serif;
-    float: left;
-    margin-left: 60px;
-
-}
-
-.Nina{
-    width: 100px;
-    height: 100px;
-
-
-    background-color: darkgreen;
-    border-style: solid;
-    border-width: 30px;
-    border-radius: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-    border-color: darkgreen;
-    font-family: Bebas Neue, Serif;
-    float: left;
-    margin-left: 60px;
-
-}
-
-.Lise{
-    width: 100px;
-    height: 100px;
-
-
-    background-color: hotpink;
-    border-style: solid;
-    border-width: 30px;
-    border-radius: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-    border-color: hotpink;
-    font-family: Bebas Neue, Serif;
-    float: left;
-    margin-left: 60px;
-
-}
-
 .OmGruppe1A{
     
     font-family: Bebas Neue, Serif;
@@ -148,7 +37,7 @@
     font-size: 50px;
 }
 
-.hkodeopplevelse{
+.hoverskrift{
     font-family: Bebas Neue, Serif;
     font-size: 40px;
 }
@@ -195,7 +84,7 @@
     font-size: 50px;
 }
 
-.jkodeopplevelse{
+.joverskrift{
     font-family: Bebas Neue, Serif;
     font-size: 40px;
 }
@@ -244,7 +133,7 @@
     font-size: 50px;
 }
 
-.jokodeopplevelse{
+.jooverskrift{
     font-family: Bebas Neue, Serif;
     font-size: 40px;
 }
@@ -291,7 +180,7 @@
     font-size: 50px;
 }
 
-.lkodeopplevelse{
+.loverskrift{
     font-family: Bebas Neue, Serif;
     font-size: 40px;
 }
@@ -315,8 +204,12 @@
 
 }
 
+/* Flere av html sidene benytter seg av denne css stylingen,
+stylingen på body skal være lik på alle sidene derfor er det
+heller ikke nødvendig å dele disse opp i "hawlerBody" feks"
+ */
 
-.liseBody{
+.fellesBody{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -337,7 +230,7 @@
     font-size: 50px;
 }
 
-.nkodeopplevelse{
+.noverskrif{
     font-family: Bebas Neue, Serif;
     font-size: 40px;
 }
@@ -380,7 +273,7 @@
     font-size: 50px;
 }
 
-.okodeopplevelse{
+.ooverskrift{
     font-family: Bebas Neue, Serif;
     font-size: 40px;
 }
@@ -404,22 +297,6 @@
 }
 
 
-
-/* .oBody{    Det ble byttet navn, vet ikke hvem som er riktig */
-
-.oBody {
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 1000px;
-    height: 100%;
-    margin: auto;
-    font-family: Bebas Neue, Serif;
-    font-size: 20px;
-}
-
-/*   */
 
 /*felles styling på infosider*/
 
@@ -448,6 +325,8 @@ nav li {
     float: left;
     width: 142px;
 }
+
+/*Linjen med styling nedenfor benyttes også flere steder*/
 
 .LiseRep {
     width: 1000px;
