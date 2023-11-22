@@ -1,7 +1,7 @@
 import { rectangle, circle, triangle, circlesvg, rectanglesvg, trianglesvg, testrect, testrect2 } from "./figures.js";
 
 function canvasjon(){
-    rectangle("blue", 0, 0, 100, 100);
+    rectangle("gray", 0, 0, 100, 100);
     circle("black", 50, 50, 49);
     circle("yellow", 50, 50, 45);
     circle("black", 70, 35, 15);
@@ -10,7 +10,7 @@ function canvasjon(){
 }
 
 
-canvasjon();
+
 
 
 function svgjon() {
