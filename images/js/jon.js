@@ -14,7 +14,7 @@ function canvasjon(){
 
 
 function svgjon() {
-    rectanglesvg("gray", "0", "0", "100", "100");
+    rectanglesvg("blue", "0", "0", "100", "100");
     circlesvg("black", "50", "50", "49");
     circlesvg("yellow", "50", "50", "44");
     circlesvg("black", "70", "35", "15");
