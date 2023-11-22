@@ -405,7 +405,7 @@
 
 /* .oBody{    Det ble byttet navn, vet ikke hvem som er riktig */
 
-.body {
+.oBody {
 
     display: flex;
     flex-direction: row;
