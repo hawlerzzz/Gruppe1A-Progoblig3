@@ -36,11 +36,11 @@ function endaentest(){
 }
 endaentest();
 
-function endaentest2(canvasid){
-    testrect2("yellow", 0, 0, 100, 100, canvasid);
+function endaentest2(canvasid1){
+    testrect2("yellow", 0, 0, 100, 100, canvasid1);
 }
 
-endaentest2(canvastest3);
+endaentest2("canvastest3");
 
 function testibest(){
     testrect("canvastest4", "red", 0, 0, 100, 100);
