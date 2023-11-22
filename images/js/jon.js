@@ -1,7 +1,7 @@
-import { rectangle, circle, triangle, circlesvg, rectanglesvg, trianglesvg, testrect } from "./figures.js";
+import { rectangle, circle, triangle, circlesvg, rectanglesvg, trianglesvg, testrect, testrect2 } from "./figures.js";
 
 function canvasjon(){
-    rectangle("brown", 0, 0, 100, 100);
+    rectangle("blue", 0, 0, 100, 100);
     circle("black", 50, 50, 49);
     circle("yellow", 50, 50, 45);
     circle("black", 70, 35, 15);
@@ -36,14 +36,14 @@ function endaentest(testid){
 }
 endaentest("canvastest2");
 
-function endaentest2(canvasid1){
-    testrect(canvasid1.toString(),"yellow", 0, 0, 100, 100);
+function endaentest2(){
+    testrect2("yellow", 0, 0, 100, 100, "canvastest3");
 }
 
-endaentest2(canvastest3);
+endaentest2();
 
 function testibest(canvasid2){
-    testrect(String(canvasid2), "red", 0, 0, 100, 100);
+    testrect2("red", 0, 0, 100, 100, canvasid2);
 }
 
-testibest(canvastest4);
+testibest("canvastest4");
