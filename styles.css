@@ -124,6 +124,7 @@
     font-family: Bebas Neue, Serif;
     font-size: 35px;
     text-align: center;
+    margin-top: 200px;
 
 
 }
@@ -131,6 +132,7 @@
 .Ginfo{
     font-family: Bebas Neue, Serif;
     font-size: 17px;
+    margin-bottom: 50px;
 
 }
 
@@ -214,7 +216,7 @@
 .figurjAPI{
     width: 50%;
     float: left;
-    font-family: Bebas Neue, Serif;
+
 }
 
 
