@@ -402,7 +402,11 @@
 }
 
 
-.oBody{
+
+/* .oBody{    Det ble byttet navn, vet ikke hvem som er riktig */
+
+.body {
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -413,9 +417,42 @@
     font-size: 20px;
 }
 
-
-
 /*   */
 
 /*felles styling på infosider*/
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    background-color: #446479;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+nav li a:hover {
+    background-color: #374752;
+}
+
+nav li {
+    float: left;
+    width: 142px;
+}
+
+.LiseRep {
+    width: 1000px;
+}
+
+.klimaavtrykk {
+    width: 1000px;
+    font-family: Bebas Neue, Serif;
+}
 
