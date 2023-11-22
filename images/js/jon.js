@@ -1,7 +1,7 @@
-import { rectangle, circle, triangle, circlesvg, rectanglesvg, trianglesvg, testrect, testrect2 } from "./figures.js";
+import { rectangle, circle, triangle, circlesvg, rectanglesvg, trianglesvg, testrect } from "./figures.js";
 
 function canvasjon(){
-    rectangle("gray", 0, 0, 100, 100);
+    rectangle("brown", 0, 0, 100, 100);
     circle("black", 50, 50, 49);
     circle("yellow", 50, 50, 45);
     circle("black", 70, 35, 15);
@@ -24,26 +24,26 @@ function svgjon() {
 
 svgjon();
 
-function testcanvas(navncanvas){
-    testrect(navncanvas.toString(), "green", 0, 0, 100, 100);
-    testrect(navncanvas.toString(), "blue", 20, 20, 30, 30);
+function testcanvas(){
+    testrect("canvastest", "green", 0, 0, 100, 100);
+    testrect("canvastest", "blue", 20, 20, 30, 30);
 }
 
-testcanvas(canvastest);
+testcanvas();
 
-function endaentest(){
-    testrect2("black", 0, 0, 100, 100, "canvastest2");
+function endaentest(testid){
+    testrect(testid, "black", 0, 0, 100, 100,);
 }
-endaentest();
+endaentest("canvastest2");
 
 function endaentest2(canvasid1){
-    testrect2("yellow", 0, 0, 100, 100, canvasid1);
+    testrect(canvasid1.toString(),"yellow", 0, 0, 100, 100);
 }
 
-endaentest2("canvastest3");
+endaentest2(canvastest3);
 
-function testibest(){
-    testrect("canvastest4", "red", 0, 0, 100, 100);
+function testibest(canvasid2){
+    testrect(String(canvasid2), "red", 0, 0, 100, 100);
 }
 
-testibest();
+testibest(canvastest4);
