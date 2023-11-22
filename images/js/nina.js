@@ -6,7 +6,7 @@ function svgnina(svgnavn) {
 	circlesvg("blue", "20", "20", "20", svgnavn);
 	ekstracirclesvg("red", "45", "50", "40", "transparent", "2", svgnavn);
 	circlesvg("green", "70", "20", "20", svgnavn);
-	circlesvg("green", "70, 20, 20", svgnavn);
+	//circlesvg("green", "70, 20, 20", svgnavn);
 }
 
 svgnina("svgnina");
