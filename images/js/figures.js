@@ -53,10 +53,10 @@ export function triangle(color, xstart, ystart, xto, yto, xnext, ynext) {
         const ctx = canvas.getContext("2d");
 
         ctx.beginPath();
-        ctx.fillStyle = color;
-        ctx.moveTo(xstart, ystart);
-        ctx.lineTo(xto, yto);
-        ctx.lineTo(xnext, ynext);
+        ctx.fillStyle = color.toString();
+        ctx.moveTo(Number(xstart), Number(ystart));
+        ctx.lineTo(Number(xto), Number(yto));
+        ctx.lineTo(Number(xnext), Number(ynext));
         ctx.fill();
     }
 }
@@ -107,4 +107,15 @@ export function trianglesvg(color, koordinater){
     newElement.style.fill = color;
     newElement.setAttribute("points", koordinater);
     svg.appendChild(newElement);
+}
+
+export function testrect(color, xstart, ystart, width, height, canvasid){
+    const canvas = document.getElementById(canvasid.toString());
+    if (canvas.getContext) {
+        const ctx = canvas.getContext("2d");
+
+        //draw a rectangle
+        ctx.fillStyle = color;
+        ctx.fillRect(xstart, ystart, width, height);
+    }
 }
