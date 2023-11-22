@@ -78,7 +78,6 @@ export function ekstracirclesvg(color, xstart, ystart, radius, filltype, strokew
     const svg = document.getElementById("svg");
     const newElement = document.createElementNS("http://www.w3.org/2000/svg", "circle");
     newElement.style.stroke = color;
-    newElement.style.fill = color;
     newElement.setAttribute("cx",xstart);
     newElement.setAttribute("cy", ystart);
     newElement.setAttribute("r", radius);
