@@ -1,4 +1,4 @@
-import { rectangle, circle, triangle, circlesvg, rectanglesvg, trianglesvg, testrect } from "./figures.js";
+import { rectangle, circle, triangle, circlesvg, rectanglesvg, trianglesvg, testrect, testrect2 } from "./figures.js";
 
 function canvasjon(){
     rectangle("gray", 0, 0, 100, 100);
@@ -31,8 +31,19 @@ function testcanvas(navncanvas){
 
 testcanvas(canvastest);
 
+function endaentest(){
+    testrect2("black", 0, 0, 100, 100, "canvastest2");
+}
+endaentest();
+
+function endaentest2(canvasid){
+    testrect2("yellow", 0, 0, 100, 100, canvasid);
+}
+
+endaentest2(canvastest3);
+
 function testibest(){
-    testrect("canvastest2", "red", 0, 0, 100, 100)
+    testrect("canvastest4", "red", 0, 0, 100, 100);
 }
 
 testibest();
