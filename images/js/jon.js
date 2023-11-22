@@ -1,4 +1,4 @@
-import { rectangle, circle, triangle, circlesvg, rectanglesvg, trianglesvg } from "./figures.js";
+import { rectangle, circle, triangle, circlesvg, rectanglesvg, trianglesvg, testrect } from "./figures.js";
 
 function canvasjon(){
     rectangle("gray", 0, 0, 100, 100);
@@ -23,3 +23,9 @@ function svgjon() {
 }
 
 svgjon();
+
+function testcanvas(canvasid){
+    testrect("gray", 0, 0, 100, 100, canvasid);
+}
+
+testcanvas(canvastest);
