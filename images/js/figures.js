@@ -109,7 +109,7 @@ export function trianglesvg(color, koordinater){
     svg.appendChild(newElement);
 }
 
-export function testrect(color, xstart, ystart, width, height, canvasid){
+export function testrect(canvasid, color, xstart, ystart, width, height){
     const canvas = document.getElementById(canvasid.toString());
     if (canvas.getContext) {
         const ctx = canvas.getContext("2d");
