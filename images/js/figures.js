@@ -110,7 +110,7 @@ export function trianglesvg(color, koordinater){
 }
 
 export function testrect(canvasid, color, xstart, ystart, width, height){
-    const canvas = document.getElementById(canvasid.toString());
+    const canvas = document.getElementById(String(canvasid));
     if (canvas.getContext) {
         const ctx = canvas.getContext("2d");
 
@@ -121,7 +121,7 @@ export function testrect(canvasid, color, xstart, ystart, width, height){
 }
 
 export function testrect2(color, xstart, ystart, width, height, canvasid){
-    const canvas = document.getElementById(canvasid.toString());
+    const canvas = document.getElementById(canvasid);
     if (canvas.getContext) {
         const ctx = canvas.getContext("2d");
 
