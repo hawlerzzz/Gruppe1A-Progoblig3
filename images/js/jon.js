@@ -24,8 +24,8 @@ function svgjon() {
 
 svgjon();
 
-function testcanvas(canvasid){
-    testrect(canvasid.toString(), "gray", 0, 0, 100, 100);
+function testcanvas(){
+    testrect("canvastest", "gray", 0, 0, 100, 100);
 }
 
-testcanvas(canvastest);
+testcanvas();
